@@ -10,22 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace CheapeesManagementApplication
 {
   /// <summary>
-  /// Interaction logic for MainWindow.xaml
+  /// Interaction logic for OrderListView.xaml
   /// </summary>
-  public partial class MainWindow : Window
+  public partial class OrderListView : Window
   {
-    public MainWindow()
+    public OrderListView()
     {
       InitializeComponent();
-      OrderView v = new OrderView();
-      v.Show();
-      this.Close();
     }
   }
 }
