@@ -23,8 +23,14 @@ namespace CheapeesManagementApplication
     public MainWindow()
     {
       InitializeComponent();
-      OrderView v = new OrderView();
-      v.Show();
+      DataView dv = new DataView();
+      dv.Show();
+      StatusView sv = new StatusView();
+      sv.Show();
+      OrderListView olv = new OrderListView();
+      olv.Show();
+      OrderView ov = new OrderView();
+      ov.Show();
       this.Close();
     }
   }

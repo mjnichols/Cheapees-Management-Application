@@ -18,7 +18,12 @@
       </Grid.ColumnDefinitions>
       <DataGrid Grid.Column="0"/>
       <Grid Grid.Column="1" Width="200">
-        <Label>Here is some example Text.</Label>
+        <Grid.RowDefinitions>
+          <RowDefinition/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0">Here is some example Text.</Label>
+        <Button Grid.Row="1" Background="White">Edit In Excel</Button>
       </Grid>
     </Grid>
     <Grid Grid.Row="1" Height="200">
